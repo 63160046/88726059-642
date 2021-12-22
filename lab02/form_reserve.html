@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Form demo</title>
+</head>
+<body>
+    <body>
+        <h3>Form Demo</h3>
+        <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/642/88726059/services/post.php">
+        <table>
+            <table>
+                <tr>
+                    <td>
+                        <label for="emotion">Room Type:</label><br>
+                    </td>
+                    <td>
+                        <select name="roomtype">
+                            <option value="not select">Please Select</option>
+                            <option value="standard">Standard</option>
+                            <option value="luxury">Luxury</option>
+                            <option value="deluxe">Deluxe</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="emotion">Number of Guests</label><br>
+                    </td>
+                    <td>
+                        <select name="numguest">
+                            <option value="not select">Please Select</option>
+                            <option value="1-2">1-2</option>
+                            <option value="3-4">3-4</option>
+                            <option value="5-6">5-6</option>
+                            <option value="7-8">7-8</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="name">Name</label><br>
+                    </td>
+                    <td>
+                        <input name="fame" placeholder="First">
+                        <input name="lname" placeholder="Last">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email</label><br>
+                    </td>
+                    <td>
+                        <input type = "text" name="fname" placeholder="63160046@go.buu.ac.th">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="arrival">Arrival</label><br>
+                    </td>
+                    <td>
+                        <input type="date" name="arrivaldate">
+                        <input type="time" name="arrivaltime">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="arrival">Departure</label><br>
+                    </td>
+                    <td>
+                        <input type="date" name="departuredate">
+                        <input type="time" name="departuretime">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="arrival">Free Pickup</label><br>
+                    </td>
+                    <td>
+                        <input type="radio" name="pickup" id="yesno" value="Yes">Yes, Sure!<br>
+                        <input type="radio" name="pickup" id="yesno" value="No">No, I already rented a car.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="arrival">Flight Number</label><br>
+                    </td>
+                    <td>
+                        <input type = "text" name="flightnum">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="arrival">Other requests</label><br>
+                    </td>
+                    <td>
+                        <Textarea name="commmet" id="comment" rows="5" cols="50"></Textarea><br><br>
+                        <input type="submit" value="complete Reservation">
+                    </td>
+                </tr>
+
+            </table>
+            
+</body>
